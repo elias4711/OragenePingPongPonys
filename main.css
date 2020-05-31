@@ -8,6 +8,7 @@ body {
   background-size: contain;
   width: 100%;
   height: 100vh;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .maincontent {
@@ -53,5 +54,66 @@ body {
   position: absolute;
   height: 100vh;
   overflow: hidden;
+}
+
+.mainLogin {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FF7800;
+  margin-bottom: 300px;
+  margin-top: 100px;
+}
+
+.mainLogin h1 {
+  margin-bottom: 50px;
+  color: #FF4800;
+}
+
+.mainLogin input {
+  height: 36px;
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid #FF7800;
+  color: #FF7800;
+  font-family: 'Press Start 2P', coursive;
+  outline: none;
+  padding: 0px 10px;
+}
+
+.mainLogin .button {
+  background-image: url("/src/img/button.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #353535;
+  margin-top: 50px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.mainLogin .button:hover {
+  color: white;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 /*# sourceMappingURL=main.css.map */
