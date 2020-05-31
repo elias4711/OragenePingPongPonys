@@ -37,4 +37,21 @@ body {
   width: 50px;
   height: auto;
 }
+
+.featureimgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: auto;
+  width: 100%;
+}
+
+.featureimgbox div {
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */
